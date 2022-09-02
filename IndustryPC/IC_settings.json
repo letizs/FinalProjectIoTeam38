@@ -1,0 +1,7 @@
+{
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "clientID": "MyIOTProjectIndustriesSystem",
+    "topic1": "CarSystem/+/consumesandkm",
+    "topic2": "CarSystem/+/airbag"
+}

@@ -1,0 +1,7 @@
+{
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "mqttTopic": "CarSystem",
+    "clientID1": "GF679TH_statistics",
+    "clientID2": "GF679TH_optionals"
+}

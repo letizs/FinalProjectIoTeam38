@@ -1,0 +1,381 @@
+{   
+    "driversList": [
+{
+    "driverID": 1,
+    "name": "Fabio",
+    "surname": "La Terra",
+    "email": "flt97@gmail.com",
+    "birth_date": "19/09/1997",
+    "chatID": 868261278,
+    "smartwatchID": 1234,
+    "thingspeakUser": "",
+    "cars_plate": [
+        "GR435YU"
+    ],
+    "lastUpdate": ""
+},
+{
+    "driverID": 2,
+    "name": "Martina",
+    "surname": "Pivano",
+    "email": "mp@gmail.com",
+    "birth_date": "27/11/1997",
+    "chatID": 408832363,
+    "smartwatchID": 1235,
+    "thingspeakUser": "",
+    "cars_plate": [
+        "GH523HL"
+    ],
+    "lastUpdate": ""
+},
+{
+    "driverID": 3,
+    "name": "Antonino",
+    "surname": "Bellina",
+    "email": "ab@gmail.com",
+    "birth_date": "15/03/1994",
+    "chatID": 93727354,
+    "smartwatchID": 1236,
+    "thingspeakUser": "https://api.thingspeak.com/update?api_key=VMAPEE6GFI7E9U32",
+    "cars_plate": [
+        "GH789JK"
+    ],
+    "lastUpdate": ""
+},
+{
+    "driverID": 4,
+    "name": "Letizia",
+    "surname": "Sacco",
+    "email": "ls@gmail.com",
+    "birth_date": "21/06/1998",
+    "chatID": 509241703,
+    "smartwatchID": 1237,
+    "thingspeakUser": "",
+    "cars_plate": [
+        "GF679TH",
+        "GH523HL"
+    ],
+    "lastUpdate": ""
+}
+    ],
+    "carsList": [
+{
+    "plate": "GR435YU",
+    "chatID_drivers": [
+        868261278
+    ],
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "thingspeakChannel": "",
+    "carStatistics": [
+        {
+            "statistic": "consumesandkm",
+            "topic": "CarSystem/GR435YU/consumesandkm",
+            "NodeRedtopic": "CarSystem/GR435YU/consumesandkm/NodeRedSystem"
+        },
+        {
+            "statistic": "airbag",
+            "topic": "CarSystem/GR435YU/airbag"
+        }
+    ],
+    "carOptionals": [
+        {
+            "optional": "doors",
+            "status": "open",
+            "topic":"CarSystem/GR435YU/doors",
+            "lastUpdate": "Sunday, 28 August 2022 12:26:46"
+        },
+        {
+            "optional": "windows",
+            "status": "down",
+            "topic":"CarSystem/GR435YU/windows",
+            "lastUpdate": "Sunday, 28 August 2022 12:26:52"
+        },
+        {
+            "optional": "lights",
+            "status": "off",
+            "topic":"CarSystem/GR435YU/lights",
+            "lastUpdate": "Saturday, 27 August 2022 12:11:16"
+        },
+        {
+            "optional": "airConditioning",
+            "status": "on",
+            "temperature": 18.1,
+            "humidity": 75,
+            "topic":"CarSystem/GR435YU/airConditioning",
+            "lastUpdate": "Sunday, 28 August 2022 12:37:28"
+        }
+    ],
+    "carSensors": [
+        {
+            "bn": "TS",
+            "e": [
+                {
+                    "n": "temperature",
+                    "u": "Cel",
+                    "t": "Sunday, 28 August 2022 12:39:51",
+                    "v": 18.1
+                }
+            ]
+        },
+        {
+            "bn": "HS",
+            "e": [
+                {
+                    "n": "humidity",
+                    "u": "%",
+                    "t": "Sunday, 28 August 2022 12:39:51",
+                    "v": 75
+                }
+            ]
+        }
+    ],
+    "sensors_topics": [
+        {
+            "temp_topic":"CarSystem/GR435YU/airConditioning/temperature",
+            "hum_topic": "CarSystem/GR435YU/airConditioning/humidity"
+        }
+    ]
+},
+{
+    "plate": "GH523HL",
+    "chatID_drivers": [
+        408832363,
+        509241703
+    ],
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "thingspeakChannel": "https://api.thingspeak.com/update?api_key=X74IBHH4T48UNR3C",
+    "carStatistics": [
+        {
+            "statistic": "consumesandkm",
+            "topic": "CarSystem/GH523HL/consumesandkm",
+            "NodeRedtopic": "CarSystem/GH523HL/consumesandkm/NodeRedSystem"
+        },
+        {
+            "statistic": "airbag",
+            "topic": "CarSystem/GH523HL/airbag"
+        }
+    ],
+    "carOptionals": [
+        {
+            "optional": "doors",
+            "status": "open",
+            "topic":"CarSystem/GH523HL/doors",
+            "lastUpdate": "Sunday, 28 August 2022 12:26:46"
+        },
+        {
+            "optional": "windows",
+            "status": "down",
+            "topic":"CarSystem/GH523HL/windows",
+            "lastUpdate": "Sunday, 28 August 2022 12:26:52"
+        },
+        {
+            "optional": "lights",
+            "status": "off",
+            "topic":"CarSystem/GH523HL/lights",
+            "lastUpdate": "Saturday, 27 August 2022 12:11:16"
+        },
+        {
+            "optional": "airConditioning",
+            "status": "on",
+            "temperature": 18.1,
+            "humidity": 75,
+            "topic":"CarSystem/GH523HL/airConditioning",
+            "lastUpdate": "Sunday, 28 August 2022 12:37:28"
+        }
+    ],
+    "carSensors": [
+        {
+            "bn": "TS",
+            "e": [
+                {
+                    "n": "temperature",
+                    "u": "Cel",
+                    "t": "Sunday, 28 August 2022 12:39:51",
+                    "v": 18.1
+                }
+            ]
+        },
+        {
+            "bn": "HS",
+            "e": [
+                {
+                    "n": "humidity",
+                    "u": "%",
+                    "t": "Sunday, 28 August 2022 12:39:51",
+                    "v": 75
+                }
+            ]
+        }
+    ],
+    "sensors_topics": [
+        {
+            "temp_topic":"CarSystem/GH523HL/airConditioning/temperature",
+            "hum_topic": "CarSystem/GH523HL/airConditioning/humidity"
+        }
+    ]
+},
+{
+    "plate": "GH789JK",
+    "chatID_drivers": [
+        93727354
+    ],
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "thingspeakChannel": "",
+    "carStatistics": [
+        {
+            "statistic": "consumesandkm",
+            "topic": "CarSystem/GH789JK/consumesandkm",
+            "NodeRedtopic": "CarSystem/GH789JK/consumesandkm/NodeRedSystem"
+        },
+        {
+            "statistic": "airbag",
+            "topic": "CarSystem/GH789JK/airbag"
+        }
+    ],
+    "carOptionals": [
+        {
+            "optional": "doors",
+            "status": "open",
+            "topic":"CarSystem/GH789JK/doors",
+            "lastUpdate": "Sunday, 28 August 2022 12:26:46"
+        },
+        {
+            "optional": "windows",
+            "status": "down",
+            "topic":"CarSystem/GH789JK/windows",
+            "lastUpdate": "Sunday, 28 August 2022 12:26:52"
+        },
+        {
+            "optional": "lights",
+            "status": "off",
+            "topic":"CarSystem/GH789JK/lights",
+            "lastUpdate": "Saturday, 27 August 2022 12:11:16"
+        },
+        {
+            "optional": "airConditioning",
+            "status": "on",
+            "temperature": 18.1,
+            "humidity": 75,
+            "topic":"CarSystem/GH789JK/airConditioning",
+            "lastUpdate": "Sunday, 28 August 2022 12:37:28"
+        }
+    ],
+    "carSensors": [
+        {
+            "bn": "TS",
+            "e": [
+                {
+                    "n": "temperature",
+                    "u": "Cel",
+                    "t": "Sunday, 28 August 2022 12:39:51",
+                    "v": 18.1
+                }
+            ]
+        },
+        {
+            "bn": "HS",
+            "e": [
+                {
+                    "n": "humidity",
+                    "u": "%",
+                    "t": "Sunday, 28 August 2022 12:39:51",
+                    "v": 75
+                }
+            ]
+        }
+    ],
+    "sensors_topics": [
+        {
+            "temp_topic":"CarSystem/GH789JK/airConditioning/temperature",
+            "hum_topic": "CarSystem/GH789JK/airConditioning/humidity"
+        }
+    ]
+},
+{
+    "plate": "GF679TH",
+    "chatID_drivers": [
+        509241703
+    ],
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "thingspeakChannel": "",
+    "carStatistics": [
+        {
+            "statistic": "consumesandkm",
+            "topic": "CarSystem/GF679TH/consumesandkm",
+            "NodeRedtopic": "CarSystem/GF679TH/consumesandkm/NodeRedSystem"
+        },
+        {
+            "statistic": "airbag",
+            "topic": "CarSystem/GF679TH/airbag"
+        }
+    ],
+    "carOptionals": [
+        {
+            "optional": "doors",
+            "status": "open",
+            "topic":"CarSystem/GF679TH/doors",
+            "lastUpdate": "Sunday, 28 August 2022 12:26:46"
+        },
+        {
+            "optional": "windows",
+            "status": "down",
+            "topic":"CarSystem/GF679TH/windows",
+            "lastUpdate": "Sunday, 28 August 2022 12:26:52"
+        },
+        {
+            "optional": "lights",
+            "status": "off",
+            "topic":"CarSystem/GF679TH/lights",
+            "lastUpdate": "Saturday, 27 August 2022 12:11:16"
+        },
+        {
+            "optional": "airConditioning",
+            "status": "on",
+            "temperature": 18.1,
+            "humidity": 75,
+            "topic":"CarSystem/GF679TH/airConditioning",
+            "lastUpdate": "Sunday, 28 August 2022 12:37:28"
+        }
+    ],
+    "carSensors": [
+        {
+            "bn": "TS",
+            "e": [
+                {
+                    "n": "temperature",
+                    "u": "Cel",
+                    "t": "Sunday, 28 August 2022 12:39:51",
+                    "v": 18.1
+                }
+            ]
+        },
+        {
+            "bn": "HS",
+            "e": [
+                {
+                    "n": "humidity",
+                    "u": "%",
+                    "t": "Sunday, 28 August 2022 12:39:51",
+                    "v": 75
+                }
+            ]
+        }
+    ],
+    "sensors_topics": [
+        {
+            "temp_topic":"CarSystem/GF679TH/airConditioning/temperature",
+            "hum_topic": "CarSystem/GF679TH/airConditioning/humidity"
+        }
+    ]
+}
+    ],
+    "TelegramBots": [
+{"StatisticsToken": "5470802718:AAG67xvkjjg2taIGRboq3SiwHNK8OTNjZHM", "Bot_username": "@MyIOTManagerBot"},
+{"OptionalsToken": "5694224300:AAHiScgBbikaruwAqG4gdLL4xTbvz27nGVw","Bot_username":"@CarManag3rBot"},
+{"SmartwatchToken": "5318086552:AAFo0KpkdFF6Q2X-qBh9TvzgFWRc2UaSf4s","Bot_username":"@SmartWatchIoT_Bot"}
+    ]
+}

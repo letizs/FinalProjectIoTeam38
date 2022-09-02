@@ -1,0 +1,80 @@
+{
+    "cars": [
+        {
+            "carID": "2",
+            "plate": "GH523HL",
+            "model": "Fiat Punto",
+            "registration_date": "2020",
+            "owner_data": {
+                "ownerID": 408832363,
+                "name": "Martina",
+                "surname": "Pivano",
+                "mail": "mp@gmail.com"
+            },
+            "statistics": {
+                "damage_number": 0,
+                "damages": [],
+                "last_month_consumes(L/100km)": 0,
+                "last_month_daily_km": 0,
+                "annual_airbag_activations": 0
+            }
+        },
+        {
+            "carID": "3",
+            "plate": "GF679TH",
+            "model": "Audi A3",
+            "registration_date": "2021",
+            "owner_data": {
+                "ownerID": 509241703,
+                "name": "Letizia",
+                "surname": "Sacco",
+                "mail": "ls@gmail.com"
+            },
+            "statistics": {
+                "damage_number": 0,
+                "damages": [],
+                "last_month_consumes(L/100km)": 0,
+                "last_month_daily_km": 0,
+                "annual_airbag_activations": 0
+            }
+        },
+        {
+            "carID": "4",
+            "plate": "GH789JK",
+            "model": "Fiat Tipo",
+            "registration_date": "2019",
+            "owner_data": {
+                "ownerID": 93727354,
+                "name": "Antonino",
+                "surname": "Bellina",
+                "mail": "ab@gmail.com"
+            },
+            "statistics": {
+                "damage_number": 0,
+                "damages": [],
+                "last_month_consumes(L/100km)": 0,
+                "last_month_daily_km": 0,
+                "annual_airbag_activations": 0
+            }
+        },
+        {
+            "carID": "5",
+            "plate": "GR435YU",
+            "model": "Alfa Romeo Giulietta",
+            "registration_date": "2021",
+            "owner_data": {
+                "ownerID": 868261278,
+                "name": "Fabio",
+                "surname": "La Terra",
+                "mail": "flt97@gmail.com"
+            },
+            "statistics": {
+                "damage_number": 0,
+                "damages": [],
+                "last_month_consumes(L/100km)": 0,
+                "last_month_daily_km": 0,
+                "annual_airbag_activations": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "token1": "5470802718:AAG67xvkjjg2taIGRboq3SiwHNK8OTNjZHM",
+    "token2": "5694224300:AAHiScgBbikaruwAqG4gdLL4xTbvz27nGVw",
+    "token3": "5748414953:AAEDJ9bZxYvBpABuU1704v4RNLOymBTmeWQ",
+    "clientID1": "TelegramBotIOTProject_statistics",
+    "clientID2": "TelegramBotIOTProject_optionals",
+    "clientID3": "TelegramBotIOTProject_smartwatch"
+}

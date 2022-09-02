@@ -1,0 +1,14 @@
+{
+    "availableResources": [
+        {
+            "filename":"IndustriesCatalog.json",
+            "client": "mongodb+srv://Admin:nu1auk4WWl0aZdpY@icar.ojplc1o.mongodb.net/?retryWrites=true&w=majority",
+            "dataformat": "JSON"
+        },
+        {
+            "filename":"SmartCarCatalog.json",
+            "client": "mongodb+srv://Admin:nu1auk4WWl0aZdpY@icar.ojplc1o.mongodb.net/?retryWrites=true&w=majority",
+            "dataformat": ["JSON","SenML"]
+        }
+    ]
+}

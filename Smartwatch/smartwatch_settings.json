@@ -1,0 +1,6 @@
+{
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "clientID": "1237",
+    "topic": "SWbot/1237/heart-rate"
+}
